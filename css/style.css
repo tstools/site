@@ -1,0 +1,159 @@
+#main {
+    padding-left: 0;
+}
+
+nav ul li:hover, nav ul li.active {
+    background-color: transparent;
+}
+
+ul.center-navigation {
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+}
+
+ul.center-navigation li {
+    display: inline;
+    position: relative;
+    right: 50%;
+    padding: 0 20px;
+}
+
+.no-hover:hover {
+    background: transparent !important;
+}
+
+header.green nav ul.center-navigation li:hover {
+    background-color: inherit;
+}
+
+header.amber.darken-4 ul.center-navigation li:hover {
+    background-color: inherit;
+}
+
+
+header.indigo ul.center-navigation li:hover {
+    background-color: inherit;
+}
+
+header.red.darken-2 ul.center-navigation li:hover {
+    background-color: inherit;
+}
+
+
+nav ul.center-navigation li a, header h1 {
+    text-shadow: black 0.02em 0.02em 0.05em
+}
+
+nav ul.center-navigation li a.active {
+    box-shadow: inset 0 0 0 white, inset 0 -1px 0 black
+}
+
+nav ul.center-navigation li a {
+    font-size:1.8em;
+}
+
+.follow_us {
+    font-size: 4em;
+}
+.follow_us a {
+    padding: 0 0.3em;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.3s;
+}
+
+.follow_us a:hover {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+footer .get-in-touch h5 {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.7em;
+
+
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid #ccc;
+}
+
+.section-title > span {
+    position: relative;
+    background: #fcfcfc;
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+    margin-left: -0.15em;
+    margin-right: -0.15em;
+}
+
+.section-title > span i {
+    font-size: 0.8em;
+}
+
+h2.header i.fa {
+    margin-right:10px;
+}
+
+nav {
+    transition: background-color 1.5s;
+}
+
+.comicSlider img {
+    width: inherit;
+}
+
+input.terminalInput {
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 22px;
+    background: #2b303b;
+    color: #ebcb8b;
+    width: 100%;
+    border: 0 transparent !important;
+    box-shadow: 0 1px 0 0 #a0a0a0 !important;
+}
+
+.terminal {
+    background-color: #2b303b;
+}
+.terminal > p {
+    color: #dfe1e8;
+    margin: 0 0 0 0;
+}
+
+.terminal .error {
+    color: #FF4646;
+}
+
+.terminal * {
+    white-space:pre;
+}
+
+#slide-out{
+    width:190px;
+}
+header, main, footer {
+    padding-left: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0; }
+}
